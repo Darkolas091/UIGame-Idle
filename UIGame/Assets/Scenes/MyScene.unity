@@ -822,7 +822,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &89435374
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5335,48 +5335,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dad2240ca342317459147f8f4e3da033, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  marketSystem: {fileID: 710463333}
-  days: 0
-  workingPopulation: 0
-  unemployedPopulation: 4
-  wood: 10
-  food: 20
-  stone: 10
-  iron: 10
-  gold: 10
-  tools: 10
-  houses: 2
-  lumberMills: 1
-  farms: 0
-  quarry: 0
-  ironMines: 0
-  goldMines: 0
-  forges: 0
-  daysText: {fileID: 13333570}
-  populationText: {fileID: 1351944582}
-  foodText: {fileID: 1811447114}
-  woodText: {fileID: 2010041971}
-  stoneText: {fileID: 1820819761}
-  ironText: {fileID: 1294917390}
-  goldText: {fileID: 736715563}
-  toolsText: {fileID: 1724303437}
-  housesText: {fileID: 1637434938}
-  farmsText: {fileID: 1746778873}
-  lumberMillsText: {fileID: 890537473}
-  quarryText: {fileID: 1562131188}
-  ironMinesText: {fileID: 1552299478}
-  goldMinesText: {fileID: 891144124}
-  forgesText: {fileID: 1554180365}
-  notificationText: {fileID: 985670749}
-  hasMarket: 0
-  useMarketButton: {fileID: 1093641870}
-  hasTemple: 0
-  useTempleButton: {fileID: 948450061}
-  theOfferingText: {fileID: 1314199273}
-  hasBetterHouses: 0
-  winPanel1: {fileID: 1924905616}
-  winPanel2: {fileID: 1358677285}
-  losePanel: {fileID: 1243047035}
 --- !u!114 &710463332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5389,15 +5347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7832d871a15e1b4409a62502382330f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildMarketButton: {fileID: 720200942}
-  buildTempleButton: {fileID: 1482054796}
-  marketInfoText: {fileID: 343325400}
-  templeInfoText: {fileID: 191353019}
-  buildMarketButtonText: {fileID: 343325400}
-  buildTempleButtonText: {fileID: 191353019}
-  marketDescriptionText: {fileID: 1841787389}
-  templeDescriptionText: {fileID: 1109655032}
-  gameManager: {fileID: 710463331}
 --- !u!114 &710463333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5410,17 +5359,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44c9209ca99fc3541b93118cd64f7e51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buyFoodButton: {fileID: 1143462814}
-  sellFoodButton: {fileID: 1424391042}
-  buyWoodButton: {fileID: 745703380}
-  sellWoodButton: {fileID: 2065706561}
-  buyStoneButton: {fileID: 310298754}
-  sellStoneButton: {fileID: 676297}
-  buyIronButton: {fileID: 196809760}
-  sellIronButton: {fileID: 258977234}
-  tradingInfoText: {fileID: 790979426}
-  isMarketOpen: 0
-  gameManager: {fileID: 710463331}
 --- !u!1 &720200940
 GameObject:
   m_ObjectHideFlags: 0
@@ -16029,17 +15967,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cee20b7d36989cb4aabaee1713a58e44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 710463331}
-  marketSystem: {fileID: 710463333}
-  playPanel: {fileID: 701890581}
-  menuPanel: {fileID: 89435373}
-  optionsPanel: {fileID: 47510260}
-  pausePanel: {fileID: 2003162897}
-  marketPanel: {fileID: 1358634524}
-  uniqueBuildingsPanel: {fileID: 817281855}
-  saveButton: {fileID: 1202768637}
-  nameInputField: {fileID: 884249913}
-  highScoreText: {fileID: 1314438509}
 --- !u!4 &2051319159
 Transform:
   m_ObjectHideFlags: 0
