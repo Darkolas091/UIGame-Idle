@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class PlayerScript2 : MonoBehaviour
@@ -8,6 +9,8 @@ public class PlayerScript2 : MonoBehaviour
     [Header("Health")]
     [SerializeField] private int maxHP = 5;
     [SerializeField] private int currentHP;
+    [SerializeField] private TMP_Text health;
+
 
     [Header("References")]
     [SerializeField] private Transform muzzle;
@@ -22,6 +25,7 @@ public class PlayerScript2 : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         currentHP = maxHP;
+        health.text = "Health: " + currentHP;
     }
 
     void Update()
@@ -68,10 +72,10 @@ public class PlayerScript2 : MonoBehaviour
     public void TakeDamage(int amount)
     {
         currentHP -= amount;
-        if (currentHP < 0)
+        health.text = "Health: " + currentHP;
+        if (currentHP <= 0)
         {
             gameManager.GameOver();
         }
-            
     }
 }
